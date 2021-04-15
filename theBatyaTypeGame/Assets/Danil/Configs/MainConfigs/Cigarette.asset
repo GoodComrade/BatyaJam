@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9f219cb5c844e878faf901d01006e90, type: 3}
+  m_Name: Cigarette
+  m_EditorClassIdentifier: 
+  AllSprites:
+  - {fileID: 21300000, guid: 7e31d9dc4f0667f4b97a6d776d14b1c6, type: 3}
+  - {fileID: 21300000, guid: 64b732b3480793542868a1037131054e, type: 3}
+  - {fileID: 21300000, guid: 329d6a32c4b8ac6409476d6258bcdb5c, type: 3}
+  - {fileID: 21300000, guid: 2e31eacb3dd2d644e99413b686d10c28, type: 3}
+  - {fileID: 21300000, guid: 57c581402c386574a99a84abca04b6d3, type: 3}
+  - {fileID: 21300000, guid: 9b63999625f2f32449e3adcd43c42d23, type: 3}
+  - {fileID: 21300000, guid: b04a5b05018d219479cef57a19882668, type: 3}

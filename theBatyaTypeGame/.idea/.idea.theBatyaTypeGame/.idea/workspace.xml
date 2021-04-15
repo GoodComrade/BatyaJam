@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="986e1608-e3cc-4d70-ae34-dd682a050de5" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/AllPhrases.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/AllPhrases.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/PhraseOutput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/PhraseOutput.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.theBatyaTypeGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.theBatyaTypeGame/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.theBatyaTypeGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.theBatyaTypeGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Danil/Scripts/TimeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/TimeManager.cs" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/Interface.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/Interface/IAction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/Interface/IAction.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/Scriptables.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/Scriptables/AllTypesOfSprites.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/Scriptables/AllTypesOfSprites.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/Scriptables/Sprites.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/Scriptables/Sprites.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/SpriteChanger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/SpriteChanger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/TimeManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/TimeManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/Timer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/Timer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.theBatyaTypeGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.theBatyaTypeGame/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.theBatyaTypeGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.theBatyaTypeGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Danil/Scripts/InputLetters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/InputLetters.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Danil/Scripts/PasteLetter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Danil/Scripts/PasteLetter.cs" afterDir="false" />
+>>>>>>> Vadim
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_InputField.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/InutLetters.cs" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/TestSctipts.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/Timer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/Scriptables/Sprites.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/Scriptables/AllTypesOfSprites.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/Interface/IAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/SpriteChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/InputLetters.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/EndMessage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/LetterController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/PasteLetter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/PhrazeOutput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/AllPhrases.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/TimeManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/PhraseOutput.cs" />
+=======
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/LetterController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/TestSctipts.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/Interface/IAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/InputLetters.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/Timer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/Scriptables/Sprites.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/Scriptables/AllTypesOfSprites.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/SpriteChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/TimeManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Danil/Scripts/PasteLetter.cs" />
+>>>>>>> Vadim
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1q0rlXDGqzNmOU59WvG7DjBcE9c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="986e1608-e3cc-4d70-ae34-dd682a050de5" name="Default Changelist" comment="" />
+      <created>1616227501045</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616227501045</updated>
+<<<<<<< HEAD
+      <workItem from="1616227507425" duration="28224000" />
+      <workItem from="1616260206712" duration="2428000" />
+=======
+      <workItem from="1616227507425" duration="17696000" />
+>>>>>>> Vadim
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+<<<<<<< HEAD
+    <option name="oldMeFiltersMigrated" value="true" />
+=======
+>>>>>>> Vadim
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+<<<<<<< HEAD
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1616254524796">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1616254524796" />
+=======
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1616242964429">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1616242964429" />
+>>>>>>> Vadim
+  </component>
+</project>

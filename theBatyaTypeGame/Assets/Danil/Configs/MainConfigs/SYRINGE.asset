@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9f219cb5c844e878faf901d01006e90, type: 3}
+  m_Name: SYRINGE
+  m_EditorClassIdentifier: 
+  AllSprites:
+  - {fileID: 21300000, guid: 8f3fedc71608be64eaf20a37ec997fe1, type: 3}
+  - {fileID: 21300000, guid: 2761430e3bf23fa40a5713f5389f2849, type: 3}
+  - {fileID: 21300000, guid: de0ef6fa1a492eb49a2e700c19a1b53e, type: 3}
+  - {fileID: 21300000, guid: 44d7dcc33a8196d45875da48891f3af3, type: 3}
+  - {fileID: 21300000, guid: f5ec6a56bbda5184e8fdb12234070c83, type: 3}
+  - {fileID: 21300000, guid: 19ca5a969c4fd0240b3d501df79cb75f, type: 3}
+  - {fileID: 21300000, guid: 5b1394e590f28f94f8794e0f0756d3bd, type: 3}
