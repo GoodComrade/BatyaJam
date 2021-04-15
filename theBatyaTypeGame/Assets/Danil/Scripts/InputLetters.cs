@@ -2,7 +2,6 @@
 using Danil.Scripts.Interface;
 using TMPro;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 namespace Danil.Scripts
 {
@@ -35,11 +34,17 @@ namespace Danil.Scripts
                 InputField.onEndEdit.Invoke("");
                 _updated = false;
             }
+            
+            InputField.ActivateInputField();
         }
 
         private void OnEndEdit(string str)
         {
-            InputField.text = "";
+            if (!Input.GetKeyDown(KeyCode.Escape))
+            {
+                InputField.text = "";
+            }
+            
             InputField.ActivateInputField();
         }
 
@@ -52,7 +57,6 @@ namespace Danil.Scripts
             }
             else
             {
-                Debug.Log("Wrong");
                 _audioSource.clip = _audioClipWrong;
                 _audioSource.Play();
             }

@@ -1,22 +1,25 @@
+using Danil.Scripts;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(AudioSource))]
 [RequireComponent(typeof(TMP_Text))]
 public class PasteLetter : MonoBehaviour
 {
+    public Image ParentImage;
     public int LetterId;
-    public TMP_InputField InputField;
     public AudioClip AudioClip;
     public TMP_Text Text;
     
+    public InputLetters InputLetters;
+    
     private AudioSource _audioSource;
-
+    
     public void Initialize()
     {
-        InputField.onValueChanged.AddListener(OnValueChanged);
-        InputField.onEndEdit.AddListener(OnEndEdit);
-        
+        InputLetters.InputField.onValueChanged.AddListener(OnValueChanged);
+
         Text = GetComponent<TMP_Text>();
         
         _audioSource = GetComponent<AudioSource>();
@@ -25,7 +28,7 @@ public class PasteLetter : MonoBehaviour
     private void OnValueChanged(string str)
     {
         str = str.Replace(" ", "");
-        
+
         if (str.Length == LetterId + 1)
         {
             Text.text = str[LetterId].ToString();
@@ -39,10 +42,5 @@ public class PasteLetter : MonoBehaviour
                 Text.text = "";
             }
         }
-    }
-    
-    private void OnEndEdit(string str)
-    {
-        InputField.text = "";
     }
 }

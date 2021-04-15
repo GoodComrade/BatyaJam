@@ -12,21 +12,24 @@ namespace Danil.Scripts
         [SerializeField] private InputLetters _inputLetters;
         
         private TMP_Text _text;
+        private int _level;
 
         private void Start()
         {
             _inputLetters.OnAction += Action;
             _text = GetComponent<TMP_Text>();
 
-            _text.text = 0.ToString();
+            _text.text = "Счёт: 0";
+
+            _level = AllStatic.LEVEL + 1;
         }
         
         private void Action(bool right)
         {
             if (right)
             {
-                ScoreCount += 10 * _timeManager.ReduceCount;
-                _text.text = ScoreCount.ToString();
+                ScoreCount += 10 * _timeManager.ReduceCount * _level;
+                _text.text = "Счёт: " + ScoreCount;
             }
         }
     }

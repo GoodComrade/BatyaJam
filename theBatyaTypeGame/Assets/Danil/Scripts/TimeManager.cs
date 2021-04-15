@@ -50,6 +50,7 @@ namespace Danil.Scripts
                 if (!_isDead)
                 {
                     _isDead = true;
+                    _inputLetters.InputField.readOnly = true;
                     _endMessage.ShowScore();
                     Debug.Log("Death");
                 }
@@ -62,10 +63,19 @@ namespace Danil.Scripts
             {
                 if (_spriteChanger.CurrentSpriteTypeNumber == 2)
                 {
-                    _timer = new Timer(0, _timer.TimerMaxValue - _reduce);
+                    if (_timer.TimerMaxValue <= 10.0f)
+                    {
+                        _timer = new Timer(0, _timer.TimerMaxValue);
+                    }
+                    else
+                    {
+                        _timer = new Timer(0, _timer.TimerMaxValue - _reduce);
+                    }
+                    
                     _spriteChanger.CurrentSpriteTypeNumber = 0;
                     _spriteChanger.CurrentSpriteListNumber = 0;
                     _changeCounter = 0.0f;
+                    _spriteChanger.ChangeSprite();
                     _reduceCount++;
                 }
                 else

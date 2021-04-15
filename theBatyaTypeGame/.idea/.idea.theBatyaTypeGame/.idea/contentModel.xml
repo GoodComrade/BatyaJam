@@ -15,6 +15,11 @@
               <e p="IAction.cs" t="Include" />
             </e>
             <e p="LetterController.cs" t="Include" />
+            <e p="Manager" t="Include">
+              <e p="AudioManager.cs" t="Include" />
+              <e p="PauseManager.cs" t="Include" />
+              <e p="ScoreViewManager.cs" t="Include" />
+            </e>
             <e p="PasteLetter.cs" t="Include" />
             <e p="PhraseOutput.cs" t="Include" />
             <e p="Score.cs" t="Include" />
@@ -23,6 +28,7 @@
               <e p="Sprites.cs" t="Include" />
             </e>
             <e p="SpriteChanger.cs" t="Include" />
+            <e p="TestInitialize.cs" t="Include" />
             <e p="TimeManager.cs" t="Include" />
             <e p="Timer.cs" t="Include" />
           </e>
@@ -61,6 +67,8 @@
         <e p="Vadim" t="Include">
           <e p="Scripts" t="Include">
             <e p="InputConditionManager.cs" t="Include" />
+            <e p="MainMenuLogic.cs" t="Include" />
+            <e p="SceneTransition.cs" t="Include" />
           </e>
         </e>
       </e>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Danil.Scripts.Scriptables;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Danil.Scripts
 {
@@ -10,7 +11,7 @@ namespace Danil.Scripts
     {
         public AllTypesOfSprites Sprites;
 
-        private SpriteRenderer _spriteRenderer;
+        private Image _spriteRenderer;
         
         public int CurrentSpriteTypeNumber { get; set; }
 
@@ -18,7 +19,7 @@ namespace Danil.Scripts
         
         private void Start()
         {
-            _spriteRenderer = GetComponent<SpriteRenderer>();
+            _spriteRenderer = GetComponent<Image>();
             
             _spriteRenderer.sprite = Sprites.SpriteTypes[0].AllSprites[0];
         }

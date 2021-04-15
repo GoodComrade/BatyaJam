@@ -21,7 +21,7 @@ public class SceneTransition : MonoBehaviour
 
         instance.loadingSceneOperation = SceneManager.LoadSceneAsync(sceneName);
 
-        // Чтобы сцена не начала переключаться пока играет анимация closing:
+        // Р§С‚РѕР±С‹ СЃС†РµРЅР° РЅРµ РЅР°С‡Р°Р»Р° РїРµСЂРµРєР»СЋС‡Р°С‚СЊСЃСЏ РїРѕРєР° РёРіСЂР°РµС‚ Р°РЅРёРјР°С†РёСЏ closing:
         instance.loadingSceneOperation.allowSceneActivation = false;
 
         instance.LoadingProgressBar.fillAmount = 0;
@@ -38,7 +38,7 @@ public class SceneTransition : MonoBehaviour
             componentAnimator.SetTrigger("sceneOpening");
             instance.LoadingProgressBar.fillAmount = 1;
 
-            // Чтобы если следующий переход будет обычным SceneManager.LoadScene, не проигрывать анимацию opening:
+            // Р§С‚РѕР±С‹ РµСЃР»Рё СЃР»РµРґСѓСЋС‰РёР№ РїРµСЂРµС…РѕРґ Р±СѓРґРµС‚ РѕР±С‹С‡РЅС‹Рј SceneManager.LoadScene, РЅРµ РїСЂРѕРёРіСЂС‹РІР°С‚СЊ Р°РЅРёРјР°С†РёСЋ opening:
             shouldPlayOpeningAnimation = false;
         }
     }
@@ -49,10 +49,10 @@ public class SceneTransition : MonoBehaviour
         {
             LoadingPercentage.text = Mathf.RoundToInt(loadingSceneOperation.progress * 100) + "%";
 
-            // Просто присвоить прогресс:
+            // РџСЂРѕСЃС‚Рѕ РїСЂРёСЃРІРѕРёС‚СЊ РїСЂРѕРіСЂРµСЃСЃ:
             //LoadingProgressBar.fillAmount = loadingSceneOperation.progress; 
 
-            // Присвоить прогресс с быстрой анимацией, чтобы ощущалось плавнее:
+            // РџСЂРёСЃРІРѕРёС‚СЊ РїСЂРѕРіСЂРµСЃСЃ СЃ Р±С‹СЃС‚СЂРѕР№ Р°РЅРёРјР°С†РёРµР№, С‡С‚РѕР±С‹ РѕС‰СѓС‰Р°Р»РѕСЃСЊ РїР»Р°РІРЅРµРµ:
             LoadingProgressBar.fillAmount = Mathf.Lerp(LoadingProgressBar.fillAmount, loadingSceneOperation.progress,
                 Time.deltaTime * 5);
         }
@@ -60,7 +60,7 @@ public class SceneTransition : MonoBehaviour
 
     public void OnAnimationOver()
     {
-        // Чтобы при открытии сцены, куда мы переключаемся, проигралась анимация opening:
+        // Р§С‚РѕР±С‹ РїСЂРё РѕС‚РєСЂС‹С‚РёРё СЃС†РµРЅС‹, РєСѓРґР° РјС‹ РїРµСЂРµРєР»СЋС‡Р°РµРјСЃСЏ, РїСЂРѕРёРіСЂР°Р»Р°СЃСЊ Р°РЅРёРјР°С†РёСЏ opening:
         shouldPlayOpeningAnimation = true;
 
         loadingSceneOperation.allowSceneActivation = true;

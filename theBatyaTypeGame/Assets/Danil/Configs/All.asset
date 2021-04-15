@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: All
   m_EditorClassIdentifier: 
   SpriteTypes:
+  - {fileID: 11400000, guid: a33eedac5ad9cca4cb68ca212cc9c7e4, type: 2}
   - {fileID: 11400000, guid: 66c02a8e63db53145818954053eb9049, type: 2}
-  - {fileID: 11400000, guid: 3fa196f5b9038b54d922c42f9591b597, type: 2}
-  - {fileID: 11400000, guid: 420bc2b068b66904aaa7e529bed44fcf, type: 2}
+  - {fileID: 11400000, guid: d6853ac3335c65640b5953526b31bb19, type: 2}
