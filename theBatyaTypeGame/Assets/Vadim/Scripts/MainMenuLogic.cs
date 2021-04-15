@@ -34,7 +34,8 @@ public class MainMenuLogic : MonoBehaviour
         _difficultyText.text = _difficulties[difficulty];
         PlayerPrefs.SetInt("PlayerDifficulty", 0);
 
-        _shouldSound = Mathf.Approximately(PlayerPrefs.GetFloat("Music", 0.0f), 0.0f);
+        _shouldSound = true;
+        //_shouldSound = Mathf.Approximately(PlayerPrefs.GetFloat("Music", 0.0f), 0.0f);
     }
     public void StartGame()
     {

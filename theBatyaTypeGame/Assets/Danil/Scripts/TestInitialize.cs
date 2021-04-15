@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using Manager;
+using UnityEngine;
+using UnityEngine.Audio;
 
 namespace Danil.Scripts
 {
@@ -10,6 +12,15 @@ namespace Danil.Scripts
             Screen.SetResolution(1024, 768, FullScreenMode.FullScreenWindow);
 
             Time.timeScale = 1.0f;
+
+            //if (Mathf.Approximately(PlayerPrefs.GetFloat("Music", 0), 0.0f))
+            //{
+            //    AudioManager.Instance.AdjustMusicVolume(true);
+            //}
+            //else
+            //{
+            //    AudioManager.Instance.AdjustMusicVolume(false);
+            //}
         }
     }
 }

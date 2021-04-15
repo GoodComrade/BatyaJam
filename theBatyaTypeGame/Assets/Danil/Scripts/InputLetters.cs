@@ -34,6 +34,8 @@ namespace Danil.Scripts
                 InputField.onEndEdit.Invoke("");
                 _updated = false;
             }
+            
+            InputField.ActivateInputField();
         }
 
         private void OnEndEdit(string str)
